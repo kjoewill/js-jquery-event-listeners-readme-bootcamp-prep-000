@@ -8,9 +8,10 @@ function getIt() {
 
 function frameIt() {
   
-  $('.tasty').on('load', function(){
+  $('img').on('load', function(){
   //actions you want to happen
-  alert("Hey!")
+  
+  
 });
   
   

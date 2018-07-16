@@ -7,23 +7,20 @@ function getIt() {
 }
 
 function frameIt() {
-  
   $('img').on('load', function(){
-  //actions you want to happen
-  $('.img').addClass('tasty');
-  
-});
-  
-  
+    //actions you want to happen
+    $('.img').addClass('tasty');
+  }); 
 }
+  
 
 
 
 
 $(document).ready(function(){
 
-// call functions here
-getIt()
-frameIt()
+  // call functions here
+  getIt()
+  frameIt()
 
 });

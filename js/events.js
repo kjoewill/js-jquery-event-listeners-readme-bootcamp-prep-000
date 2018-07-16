@@ -6,6 +6,13 @@ function getIt() {
   });
 }
 
+function fremeIt() {
+  
+}
+
+
+
+
 $(document).ready(function(){
 
 // call functions here
